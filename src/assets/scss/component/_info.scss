@@ -1,0 +1,58 @@
+.infoheader{
+    height: auto;
+    padding: 1rem;
+    display: inline-flex;
+    align-items: center;
+    max-width: -webkit-fill-available;
+    line-height: 2.1rem;
+    text-align: justify;
+    font-family: ProximaNovaRegular,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #344750;
+}
+.infoheadercircle{
+    position: relative !important;
+    margin-right: 2rem;
+}
+
+//info circle
+.infocircle{
+    cursor: pointer;
+    position: relative;
+    font-style: italic;
+    font-family: serif;
+    padding: 0.3rem 1.1rem;
+    color: white;
+    font-weight: 600;
+    display: inline;
+    align-items: center;
+    font-size: 1.7rem;
+    background: #00bf60;
+    border-radius: 18px;
+}
+
+//back and prev btn
+.pbbtn {
+    display: inline-block;
+    line-height: normal;
+    color: #00bf60;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.9rem;
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #fafbfa;
+    margin-top: 3rem;
+    cursor: pointer;
+
+    &:hover {
+        border-bottom: #ff8000 solid 1px;
+        color: #ff8000;
+        @include transition(all .2s ease-in-out);
+    }
+}

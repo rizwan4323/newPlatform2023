@@ -1,0 +1,128 @@
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  /* border-bottom: 1px solid gray; */
+  font-size: $slightcommontext;
+  font-weight: 700;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+  font-size: $slightcommontext;
+  overflow: auto;
+  height: 85vh;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  margin: auto;
+  text-align: center;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: 5px;
+  top: 5px;
+  font-size: 24px;
+  // background: #ffffff;
+  border-radius: 18px;
+  // border: 1px solid #cfcece;
+  z-index: 1;
+  color: $gray;
+}
+.modal > .close:hover {
+  color: $green;
+}
+.points-tooltip {
+  width: auto; // !important
+  max-width: 800px;
+  min-width: 300px;
+  z-index: 10 !important;
+  ul li {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  // ul li:first-child {
+  //     padding: 0px 10px 5px;
+  // }
+  ul li:hover {
+    background: linear-gradient(120deg, #00e4a5, #58cf66);
+  }
+}
+
+.center-vertical-parent {
+  position: relative;
+  height: 100%;
+  overflow: auto;
+}
+.center-vertical {
+  // transform: translate(-50%, -50%);
+  // margin: 0;
+  // position: absolute;
+  // top: 50%;
+  // left: 50%;
+  // min-height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  min-height: 100%;
+  justify-content: center;
+}
+
+.stretch-height {
+  height: 100%;
+}
+
+.popup-overlay {
+  z-index: 1;
+}
+
+.startModalWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.startModalItem {
+  flex: 1;
+  margin: 0 15px;
+}
+
+.modalHeading {
+  font-size: 18px;
+  font-weight: 600px;
+  color: $green;
+}
+
+.modalText {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 1023px) {
+  .popup-content {
+    width: 70% !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .popup-content {
+    width: 90% !important;
+  }
+  .startModalWrapper {
+    flex-direction: column;
+  }
+  .startModalItem {
+    margin: 15px 0;
+  }
+}

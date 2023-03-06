@@ -1,0 +1,51 @@
+// Base Colors
+// $mainColor: #37bd46;
+$PLGGreen: #00f49d;
+$PLGDarkGreen: #00cb7c;
+$PLGOrange: #ff8000;
+$PLGBlue: #7aeef1;
+$PLGDarkBlue: #5ec7c0;
+$PLGBlack: #001b03;
+$PLGGrey: #373d38;
+
+$mainColor: #00bf60;
+$txtCol: #4a4a4a;
+$black: #010000;
+$dark_blue: #003c76;
+$white: #ffffff;
+$orange: #f5a637;
+$red: #bc3030;
+$lightGrey: #ccc;
+$lightBlue: #69b3d0;
+$commontext: 1.4rem;
+$slightcommontext: 1.8rem;
+$commontext: 1.4rem;
+$slightcommontext: 1.8rem;
+// admin colors 
+$darkSlateGray: #272F37;
+$sandyBrown: #EDB33D;
+$whiteSmoke: #F9F9F9;
+$mediumSeaGreen: #43BE7D;
+$Violet: #EFA5C3;
+
+// new colors
+$gray: #6f7271;
+$blue: #4267b2;
+$green: #1ac594;
+$light_green: #0adb9a;
+$orange: #ff7837;
+$dark_red: #d63031;
+$light_red: #f4e3dc;
+$dark_gray: #40534f;
+
+@mixin translateY($e) {
+    -webkit-transform: translateY($e);
+    -moz-transform: translateY($e);
+    transform: translateY($e);
+}
+
+@mixin transition($e) {
+    -webkit-transition:$e;
+    -moz-transition:$e;
+    transition:$e;
+}

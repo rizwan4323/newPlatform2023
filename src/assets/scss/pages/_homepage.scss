@@ -1,0 +1,184 @@
+.homepage {
+    .profile_wrap {
+        overflow: hidden;
+        .profile_img {
+            background-repeat: no-repeat, repeat;
+            background-size: cover;
+            background-position: center;
+            width: 3.6rem;
+            height: 3.6rem;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 1px 2px 5px #272f37;
+        }
+
+        .coach-name {
+            text-transform: capitalize;
+            font-weight: 700;
+        }
+
+        .coach-description {
+            margin-top: 10px;
+            max-height: 100px;
+            overflow: auto;
+        }
+
+        .contact_coach_btn {
+            display: inline-block;
+            font-size: 0.9rem;
+            line-height: normal;
+            color: #00bf60;
+            font-weight: bold;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            text-align: center;
+            padding: 0.1rem;
+            margin-top: 0.3rem;
+            cursor: pointer;
+            &:hover {
+                color: #ff8000;
+                @include transition(all .2s ease-in-out);
+            }
+        }
+    }
+
+    .custom-style-warning {
+        background-color: transparent !important;
+        color: #ff8000 !important;
+        font-size: 25px;
+    }
+    
+    .notification-message > *:last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    
+    .win-wheel-parent {
+        position: relative;
+    }
+    
+    .the-wheel {
+        position: absolute;
+        height: 450px;
+        width: 100%;
+        background-image: url(/assets/graphics/geniewheel.png);
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .earn-points {
+        opacity: 0;
+    }
+
+    .earn-points-description {
+        opacity: 1;
+        position: absolute;
+        top: 40px;
+        padding: 5px;
+        background: #ec9d3d;
+        color: #fff;
+        box-shadow: 0 2px 7px #dfdfdfb8;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+}
+
+.remodel {
+    iframe {
+        border-radius: 10px;
+    }
+    ul li {
+        padding: 10px 5px;
+        font-size: 0.875em;
+        margin: 0;
+    }
+    ul li:not(:last-child) {
+        border-bottom: 1px solid #d8d8d8;
+    }
+}
+    
+.item-list {
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    li {
+        padding: 10px 5px;
+        font-size: 0.875em;
+        margin: 0;
+    }
+    li:hover {
+        background-color: $green;
+        color: $white;
+        cursor: pointer;
+        
+        .color-green {
+            color: $white;
+        }
+    }
+    li:not(:last-child) {
+        border-bottom: 1px solid #d8d8d8;
+    }
+}
+
+.item-list-normal {
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    li {
+        padding: 10px 5px;
+        font-size: 0.875em;
+        margin: 0;
+    }
+    li:not(:last-child) {
+        border-bottom: 1px solid #d8d8d8;
+    }
+}
+
+.item-list-horizontal {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    li {
+        padding: 10px 5px;
+        font-size: 0.875em;
+        margin: 0;
+        width: -webkit-fill-available;
+    }
+    li:not(:last-child) {
+        border-right: 1px solid #d8d8d8;
+        border-bottom: none;
+    }
+}
+
+.item-list-float {
+    z-index: 1;
+    position: absolute;
+    border: 1px solid #d8d8d8;
+    border-top: none;
+    background-color: #fff;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+    li {
+        padding: 10px 5px;
+        font-size: 0.875em;
+        margin: 0;
+    }
+    li:hover {
+        background-color: $green;
+        color: $white;
+        cursor: pointer;
+        
+        .color-green {
+            color: $white;
+        }
+    }
+    li:not(:last-child) {
+        border-bottom: 1px solid #d8d8d8;
+    }
+}
+
+.kartra_helpdesk_sidebar iframe,.kartra_helpdesk_sidebar.kartra_external iframe {
+    min-width: 500px !important;
+}

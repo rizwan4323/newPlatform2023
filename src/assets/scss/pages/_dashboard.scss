@@ -1,0 +1,24 @@
+.image-banner img{
+    max-width: 70%;
+    max-height: 50rem;
+    padding-top: 20px;
+    display: block;
+    margin: auto;
+}
+
+.footer{
+    background: #fcfcfc;
+    text-align: center;
+    ul{
+        display: inline-flex;
+    }
+    li{
+        margin: 0 20px;
+    }
+    a{
+        color: black;
+    }
+    a:hover{
+        color: green;
+    }
+}

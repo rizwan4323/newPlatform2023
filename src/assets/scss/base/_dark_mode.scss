@@ -1,0 +1,37 @@
+.dark-mode {
+    background-color: #1f272d;
+    .sideBar {
+        background-color: #262f36 !important;
+        border-right: 1px solid #262f36;
+    }
+    .sideBar .signbar_nav .headline {
+        background-color: #262f36 !important;
+    }
+    .new-header {
+        background-color: #262f36;
+        border-bottom: #262f36;
+    }
+    .profile-nav {
+        background-color: #262f36;
+        color: #fff;
+    }
+    .header-dropdown-menu-divider {
+        background-color: #262f36 !important;
+        border-bottom: 1px solid #434c52 !important;
+    }
+    a, label:not(.color-green, .color-dark-red), div, h4, .sideBar .signbar_nav ul li a, .pagination-number-active {
+        color: #fff !important;
+    }
+    .product-card, input, .pagination-number-active, .popup-content, .infinite-calendar div, .Cal__Day__root, .select-selected, .select-items {
+        background: #383f45 !important;
+    }
+    #funnel_main_header, .grid, .newPageHeader, .footer, .analytics-tab div:not(.funnel_graph_container, .recharts-wrapper) {
+        background-color: #1f272d !important;
+    }
+    .filter-container {
+        background-color: unset !important;
+    }
+    button:not([class]) {
+        background-color: #383f45 !important;
+    }
+}
